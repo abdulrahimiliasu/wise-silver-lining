@@ -14,7 +14,7 @@ const SubCard = forwardRef(({ children, content, contentClass, darkTitle, second
         <Card
             ref={ref}
             sx={{
-                border: '1px solid',
+                border: '3px solid',
                 borderColor: theme.palette.primary.light,
                 ':hover': {
                     boxShadow: '0 2px 14px 0 rgb(32 40 45 / 8%)'

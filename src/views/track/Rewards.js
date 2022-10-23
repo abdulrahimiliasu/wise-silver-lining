@@ -35,18 +35,19 @@ const Rewards = () => (
                             <RewardDetails title={'On Track Budget'} description="Completed August 2022" points={'20'} />
                             <RewardDetails title={'On Track Budget'} description="Completed June 2022" points={'20'} />
                             <RewardDetails title={'On Track Budget'} description="Completed May 2022" points={'20'} />
+                            <RewardDetails title={'On Track Budget'} description="Completed April 2022" points={'20'} />
                         </ContentWrapper>
                     </SubCard>
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <SubCard title="Referals">
                         <ContentWrapper spacing={0}>
-                            <RewardDetails title={'Refered'} description="Abdulrahim Iliasu" points={'30'} />
-                            <RewardDetails title={'Refered'} description="Ayo" points={'30'} />
-                            <RewardDetails title={'Refered'} description="Ume" points={'30'} />
-                            <RewardDetails title={'Refered'} description="Ben" points={'30'} />
-                            <RewardDetails title={'Refered'} description="Abdulrehman" points={'30'} />
-                            <RewardDetails title={'Refered'} description="Basit" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Abdulrahim Iliasu" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Ayo" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Ume" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Ben" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Abdulrehman" points={'30'} />
+                            <RewardDetails title={'Referred'} description="Basit" points={'30'} />
                         </ContentWrapper>
                     </SubCard>
                 </Grid>

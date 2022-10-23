@@ -116,7 +116,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>
@@ -241,7 +241,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>
@@ -366,7 +366,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>
@@ -491,7 +491,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>
@@ -616,7 +616,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>
@@ -741,7 +741,7 @@ const CountryDetails = ({ isLoading, country }) => {
                                                 <Grid container alignItems="center" justifyContent="space-between">
                                                     <Grid item>
                                                         <Typography variant="subtitle1" color="inherit">
-                                                            Accomendation
+                                                            Accommodation
                                                         </Typography>
                                                     </Grid>
                                                     <Grid item>

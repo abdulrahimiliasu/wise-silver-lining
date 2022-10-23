@@ -9,8 +9,7 @@ export const useInput = (initialValue, required = false, sensitive = false, vali
 
     const handleChange = (event) => {
         setError(false);
-        const nv = Number(event.target.value);
-        setValue(nv);
+        setValue(event.target.value);
         if (sensitive) {
             if (event.target.value.match(passrgx) || event.target.value === '') {
                 setError(false);

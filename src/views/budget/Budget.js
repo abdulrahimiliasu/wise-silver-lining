@@ -28,6 +28,7 @@ export default function Budget() {
                 sx={{
                     display: 'grid',
                     gap: 3,
+                    flexWrap: 'wrap',
                     gridTemplateColumns: 'repeat(2, 1fr)'
                 }}
             >

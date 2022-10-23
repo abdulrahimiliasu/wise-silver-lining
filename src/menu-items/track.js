@@ -13,7 +13,6 @@ const icons = {
 
 const track = {
     id: 'Track',
-    title: 'Track',
     type: 'group',
     children: [
         {
@@ -24,20 +23,20 @@ const track = {
 
             children: [
                 {
-                    id: 'reards',
-                    title: 'My Trips',
-                    type: 'item',
-                    url: '/spending/my-trips',
-                    icon: icons.IconCoin,
-                    breadcrumbs: false
-                },
-                {
                     id: 'register3',
                     title: 'Plan',
                     type: 'item',
                     url: '/spending/plan',
                     icon: icons.IconWallet,
                     target: false
+                },
+                {
+                    id: 'reards',
+                    title: 'My Trips',
+                    type: 'item',
+                    url: '/spending/my-trips',
+                    icon: icons.IconCoin,
+                    breadcrumbs: false
                 }
             ]
         }

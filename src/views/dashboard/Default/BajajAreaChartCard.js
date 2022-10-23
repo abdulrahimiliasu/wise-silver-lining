@@ -19,7 +19,7 @@ const BajajAreaChartCard = () => {
     const customization = useSelector((state) => state.customization);
     const { navType } = customization;
 
-    const orangeDark = theme.palette.secondary[800];
+    const orangeDark = theme.palette.secondary.main;
 
     useEffect(() => {
         const newSupportChart = {
@@ -51,7 +51,7 @@ const BajajAreaChartCard = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant="subtitle2" sx={{ color: theme.palette.grey[800] }}>
-                        10% Profit
+                        Spending Habit
                     </Typography>
                 </Grid>
             </Grid>

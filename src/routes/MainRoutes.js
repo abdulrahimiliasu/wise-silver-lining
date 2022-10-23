@@ -49,12 +49,12 @@ const MainRoutes = {
             path: 'spending',
             children: [
                 {
-                    path: 'my-trips',
-                    element: <InternationalSpending />
-                },
-                {
                     path: 'plan',
                     element: <Plan />
+                },
+                {
+                    path: 'my-trips',
+                    element: <InternationalSpending />
                 }
             ]
         },
