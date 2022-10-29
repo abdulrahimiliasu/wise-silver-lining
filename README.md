@@ -4,9 +4,9 @@
 
 ## Team Members
 
--   Abdulrahim Iliasu Illo
+-   [Abdulrahim Iliasu Illo](https://github.com/abdulrahimiliasu)
 -   Mehdi Ben Ayed
--   Ayo Ajayi
+-   [Ayomide Ajayi](https://github.com/ayo-ajayi)
 -   Umeh Ugonna
 -   Abderrahmen Belkhiria
 -   Basit

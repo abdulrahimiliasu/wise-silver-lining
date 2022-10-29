@@ -58,31 +58,27 @@ const RewardDetails = ({ isLoading, title, description, points }) => {
                     <Grid item xs={12} md={12}>
                         <MainCard content={false}>
                             <CardContent>
-                                <Grid container spacing={gridSpacing}>
-                                    <Grid item xs={12}>
-                                        <Grid container direction="column">
+                                <Grid container spacing={gridSpacing} item xs={12}>
+                                    <Grid container direction="column" item>
+                                        <Grid container alignItems="center" justifyContent="space-between">
+                                            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                                                <IconChecks color="green" transform="scale(1.8)" />
+                                                <Grid item marginLeft="16px">
+                                                    <Typography variant="subtitle1" color="inherit">
+                                                        {title}
+                                                    </Typography>
+                                                    <Typography variant="subtitle2" color="inherit">
+                                                        {description}
+                                                    </Typography>
+                                                </Grid>
+                                            </Box>
+
                                             <Grid item>
                                                 <Grid container alignItems="center" justifyContent="space-between">
-                                                    <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                                                        <IconChecks color="green" transform="scale(1.8)" />
-                                                        <Grid item marginLeft="16px">
-                                                            <Typography variant="subtitle1" color="inherit">
-                                                                {title}
-                                                            </Typography>
-                                                            <Typography variant="subtitle2" color="inherit">
-                                                                {description}
-                                                            </Typography>
-                                                        </Grid>
-                                                    </Box>
-
                                                     <Grid item>
-                                                        <Grid container alignItems="center" justifyContent="space-between">
-                                                            <Grid item>
-                                                                <Typography variant="subtitle1" color="inherit">
-                                                                    {points} Wise Points
-                                                                </Typography>
-                                                            </Grid>
-                                                        </Grid>
+                                                        <Typography variant="subtitle1" color="inherit">
+                                                            {points} Wise Points
+                                                        </Typography>
                                                     </Grid>
                                                 </Grid>
                                             </Grid>
