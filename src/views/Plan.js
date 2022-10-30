@@ -11,7 +11,7 @@ export default function Plan() {
         <MainCard title="Future trips">
             <Stack spacing={2}>
                 <CustomButton title="Add Trip" icon={<IconPlus />} />
-                <Grid container spacing={gridSpacing} xs="auto">
+                <Grid container spacing={gridSpacing} xs="auto" item>
                     <Grid item sm={12} xs={12} md={6} lg={6}>
                         <FutureTrip country={'USA'} days="19" budget={'700,000'} isLoading={false} />
                     </Grid>
