@@ -8,5 +8,5 @@
 -   Mehdi Ben Ayed
 -   [Ayomide Ajayi](https://github.com/ayo-ajayi)
 -   Umeh Ugonna
--   Abderrahmen Belkhiria
+-   [Abderrahmen Belkhiria](https://github.com/AbduBekh)
 -   Basit
